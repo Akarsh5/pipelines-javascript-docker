@@ -6,7 +6,7 @@ spec:
   replicas: 1
   selector:
       matchLabels:
-        name: akarshpipelinesjavascriptdocker
+        app: akarshpipelinesjavascriptdocker
   template:
     metadata:
       labels:
